@@ -1,0 +1,23 @@
+(define (seq n)
+  (define (iter count)
+    (if (> count n)
+        '()
+        (cons count (iter (+ count 1)))))
+  (iter 1))
+
+(define (cumsoft x)
+  (let ((cum? (= (remainder x 3) 0))
+        (soft? (= (remainder x 5) 0)))
+    (cond ((and cum? soft?) "cumsoft")
+          (soft? "Soft")
+          (cum? "Cum")
+          (else x))))
+
+(define (print-list s)
+  (if (not (null? s))
+    (begin
+      (display (car s))
+      (newline)
+      (print-list (cdr s)))))
+
+(print-list (map cumsoft (seq 100)))
