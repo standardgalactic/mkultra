@@ -20,4 +20,4 @@
       (newline)
       (print-list (cdr s)))))
 
-(print-list (map cumsoft (seq 100)))
+(print-list (map cumsoft (seq 1000000)))
