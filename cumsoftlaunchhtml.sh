@@ -22,11 +22,11 @@
 #✧│▸|  `----.|  `--'  | |  |  |  | .----)   |   |  `--'  | |  |         |  |      #
 #✧│▸ \______| \______/  |__|  |__| |_______/     \______/  |__|         |__|      #
 #✧│▸                                                                              #
-#✧│▸  Cumsoft Copyright (C) 2022.                                                 #
-#✧│▸  https://github.com/cumsoft                                                  #
-#✧│▸  https://cumsoft.wixsite.com/cumsoft                                         #
-#✧│▸  Https://cumsoft.gumroad.com                                                 #
+#✧│▸                      Cumsoft Copyright (C) 2022.                             #
 #✧│▸                                                                              #
+#✧│▸                  https://cumsoft.wixsite.com/cumsoft                         #
+#✧│▸                      https://github.com/cumsoft                              #
+#✧│▸                      https://cumsoft.gumroad.com                             #
 #✧│▸                                                                              #
 #✧│▸                                                                              #
 #✧│▸                                                                              #
