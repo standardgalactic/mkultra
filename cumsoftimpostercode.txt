@@ -1,0 +1,64 @@
+HIDWORD (v65) = length_2;
+EAX = v65 >> key;
+LOBYTE (EAX) = BYTE1 (length_1);
+LOWORD (EAX) = _byteswap_ulong (_EAX) ;
+ah, al }
+asm
+xadd
+LODWORD (v65) = SBYTE1 (length_1);
+HIDWORD (V65) = length_2;
+LOWORD (_EAX) = (v65 >> key) - 1;
+_asm { xadd ah, al }
+_BitScanReverse (& EAX, length_2);
+_EAX= (__PAIR__(length_2, _byteswap_ulong (_EAX))
+LOBYTE (EAX) = 0;
+asm { xadd
+ah, al }
+v71 = length_2 * length_2 * _byteswap_ulong (_EAX)
+LOBYTE (v71) = v71 >> key;
+EAX=_byteswap_ulong (v71);
+LOBYTE (EAX) = BYTE1 (length_1);
+LOWORD (_EAX) =
+LOBYTE (_EAX) =
+LOWORD (_EAX) =
+v73 BYTE1 (_EAX);
+BYTE1 (_EAX) = _EAX;
+LOBYTE (EAX) = -v73;
+asm { xadd
+j = 0;
+v76 = 0;
+v77 = key;
+do
+{
+v78 = v84 [j];
+v76 = (v78 + v77 [jkey_length] + v76) % 256;
+v84 [j++] = v84 [v76];
+v84 [v76] = v78;
+}
+while (j < 256);
+i = 0;
+do
+v80 = 0;
+v81 = 0;
+if (data_length)
+{
+{
+_PAIR_(length_2, _EAX) >> key;
+EAX >> key;
+EAX - 1;
+ah, al }
+}
+return data;
+4G
+v81 = (v81 + 1) % 256;
+v82
+v84 [V81];
+v80 = (v82 +v80) 256;
+v84[v81] = v84[v80];
+v84 [v80] = v82;
+data[i] = v84 [ (v82 + v84 [v81]) % 256];
+++i;
+}
+while (i < data_length);
+000
+(O)
