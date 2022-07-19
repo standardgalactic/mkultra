@@ -41,7 +41,7 @@
 # ▐                   ▐    ▐                     ▐         ▐         
 #
 #      Copyright © 2022-Present by Cumsoft. All rights reserved.
-#             robots.txt file created by 06/18/2022      
+#             robots.txt file created by 07/18/2022      
 #
 #                https://cumsoft.wixsite.com/cumsoft
 #                   https://github.com/cumsoft
